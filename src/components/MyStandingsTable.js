@@ -7,7 +7,7 @@ const MyStandingsTable = ({ leagueName, displayHeading = false }) => {
 
   useEffect(() => {
     // Construct the file path based on the league name
-    const filePath = `/${leagueName}.json`;
+    const filePath = `${process.env.PUBLIC_URL}/${leagueName}.json`;
 
     // Fetch data from the dynamically constructed file path
     fetch(filePath)
