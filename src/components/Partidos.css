@@ -1,0 +1,49 @@
+.week-header {
+  background-color: black;
+  text-align: center;
+  width: 90%;
+  font-size: 30px;
+  align-self: center;
+}
+
+.buttons-container {
+  display: flex;
+  background-color: black;
+  justify-self: center;
+  width: fit-content;
+  align-self: center;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.fixtures-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  padding: 20px 0px;
+  background-color: black;
+}
+
+.matchcard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  align-self: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .week-header {
+    font-size: 5vw;
+  }
+
+  .buttons-container {
+    font-size: 2vw;
+  }
+
+  .fixtures-container {
+    width: 40%;
+  }
+}

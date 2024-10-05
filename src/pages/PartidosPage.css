@@ -1,0 +1,13 @@
+/* PartidosPage.css */
+.partidos-page {
+  padding: 20px;
+}
+
+.my-page-banner {
+  margin-bottom: 20px;
+}
+
+.partidos-page-fixtures-container {
+  display: flex;
+  justify-content: center;
+}

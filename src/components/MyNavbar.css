@@ -1,0 +1,32 @@
+.navbar-mobile {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+}
+
+/* Responsive paddings */
+body {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 0;
+    padding-bottom: 50px; /* Adjust for mobile navbar */
+  }
+}
+
+/* General logo styling for both mobile and desktop */
+.navbar-brand img {
+  height: 40px; /* Set the height to scale the image */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Additional mobile-specific adjustments if needed */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 30px; /* Smaller logo for mobile devices */
+  }
+}

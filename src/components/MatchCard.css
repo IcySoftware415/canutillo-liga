@@ -1,0 +1,134 @@
+.match-card {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: fit-content;
+}
+
+.match-card.LUNES_5v5 {
+  background-color: #141e41;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.match-card.JUEVES_5v5 {
+  background-color: #a87e11;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8%;
+  width: 30%;
+  height: 95%;
+}
+
+.time {
+  margin-bottom: 1px;
+  font-size: 25px;
+  color: white;
+}
+
+.date {
+  font-size: 20px;
+  color: white;
+}
+
+.league {
+  margin-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.teamsScoreContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 3px 0px;
+}
+
+.team-name-text {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.teamScoreContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Align items vertically centered */
+  padding: 3px 5px 3px 10px; /* Optional: Add some padding */
+  justify-content: space-between; /* Distribute space between items */
+  border-width: 0.5px;
+  height: 100%;
+}
+
+.teamScoreContainer.LUNES_5v5.home {
+  background-image: linear-gradient(90deg, rgb(15, 15, 86), rgb(0, 21, 211));
+  border-top-left-radius: 2%;
+}
+
+.teamScoreContainer.LUNES_5v5.away {
+  background-color: black;
+  border-bottom-left-radius: 2%;
+}
+
+.teamScoreContainer.JUEVES_5v5.home {
+  /* background-image: linear-gradient(90deg, #fca8017a, #7b6102); */
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.teamScoreContainer.JUEVES_5v5.away {
+  background-color: black;
+}
+
+.scoreContainer.played {
+  background-color: white;
+  border-radius: 10%;
+  color: black;
+  padding: 2px 5px; /* Optional: Add some padding */
+  margin-left: 10px; /* Add space between team and score */
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.scoreContainer.unplayed {
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .time {
+    font-size: 3vw;
+  }
+
+  .date {
+    font-size: 2vw;
+  }
+
+  .league {
+    font-size: 2vw;
+  }
+  .team-name-text {
+    font-size: 2vw;
+  }
+  .scoreContainer.played {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .details {
+    height: 15vw;
+    width: fit-content;
+    padding: 0px 5px;
+  }
+
+  .match-card {
+    width: 100%;
+  }
+}

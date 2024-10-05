@@ -1,0 +1,23 @@
+/* MatchDayBanner.css */
+.date-banner {
+  background-color: rgba(0, 0, 0, 0.53);
+  margin: 10px auto; /* Center horizontally with auto left and right margins */
+  width: 85%;
+  text-align: center;
+  padding: 15px; /* Optional: Add padding for better spacing */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.date-banner h1 {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+}
+
+.date-banner h2 {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  margin: 5px 0 0 0; /* Adjust margin for spacing */
+}

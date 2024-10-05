@@ -1,0 +1,81 @@
+.header-stats {
+  display: flex;
+  width: 90%;
+  height: fit-content;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(32, 32, 195);
+  border-radius: 20%;
+  width: 100%;
+  margin: 3px;
+}
+
+.header-container.position {
+  justify-content: center;
+  width: 50%;
+  height: 80%;
+  margin: 0px;
+}
+
+.header-column {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.header-column.position {
+  flex: 0 0 10%;
+}
+
+.header-column.teamname {
+  flex: 0 0 30%;
+}
+
+.header-column.games {
+  flex: 0 0 30%;
+}
+
+.header-column.goals {
+  flex: 0 0 20%;
+}
+
+.header-column.points {
+  flex: 0 0 10%;
+}
+
+.header-item {
+  background-color: white;
+  margin: 5px 3px;
+  padding: 4% 20%; /* Ensure there is sufficient padding */
+  border-radius: 8%;
+  font-size: 2.75vw; /* Responsive font size based on width of the viewport */
+  font-weight: 800;
+  text-align: center;
+  display: flex; /* Make the header item itself a flex container */
+  align-items: center; /* Center text vertically within the item */
+  justify-content: center; /* Center text horizontally within the item */
+  flex: 1;
+}
+
+.header-item.position {
+  border-radius: 20%;
+  margin: 3px;
+}
+
+.header-item.teamname {
+  justify-content: left;
+  padding-left: 8px;
+}
+
+.header-item.data {
+  border-radius: 100%;
+  padding: 2px;
+}
+
+.header-item.points {
+  padding: 0px;
+}
