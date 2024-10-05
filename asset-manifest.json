@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/canutillo-liga/static/css/main.9038f525.css",
+    "main.js": "/canutillo-liga/static/js/main.2e8948d7.js",
+    "static/js/453.543a3cfe.chunk.js": "/canutillo-liga/static/js/453.543a3cfe.chunk.js",
+    "static/media/ligas.png": "/canutillo-liga/static/media/ligas.1cd914fa0b9d7aae588f.png",
+    "static/media/field1.png": "/canutillo-liga/static/media/field1.dd55e813d498cf5b7da1.png",
+    "static/media/futlogo.png": "/canutillo-liga/static/media/futlogo.e2572c880744b321699d.png",
+    "index.html": "/canutillo-liga/index.html",
+    "main.9038f525.css.map": "/canutillo-liga/static/css/main.9038f525.css.map",
+    "main.2e8948d7.js.map": "/canutillo-liga/static/js/main.2e8948d7.js.map",
+    "453.543a3cfe.chunk.js.map": "/canutillo-liga/static/js/453.543a3cfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9038f525.css",
+    "static/js/main.2e8948d7.js"
+  ]
+}

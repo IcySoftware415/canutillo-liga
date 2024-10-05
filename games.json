@@ -1,0 +1,83 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "team1": "CHELSEA",
+      "team2": "OLYMPIA",
+      "league": "LUNES_5v5",
+      "season": "2024-Summer",
+      "time": "7:40PM",
+      "status": "played",
+      "date": "AUG 22",
+      "week": 1,
+      "team1Score": 100,
+      "team2Score": 100
+    },
+    {
+      "id": 2,
+      "team1": "FC MILO",
+      "team2": "CHELSEA",
+      "league": "JUEVES_5v5",
+      "season": "2024-Summer",
+      "time": "8:30PM",
+      "status": "unplayed",
+      "date": "AUG 22",
+      "week": 2
+    },
+    {
+      "id": 3,
+      "team1": "FC MILO",
+      "team2": "GUARUMOS",
+      "league": "LUNES_5v5",
+      "season": "2024-Summer",
+      "time": "9:20PM",
+      "status": "unplayed",
+      "date": "AUG 22",
+      "week": 2
+    },
+    {
+      "id": 4,
+      "team1": "FUTBOLEROS",
+      "team2": "COBOS BOOTS",
+      "league": "LUNES_5v5",
+      "season": "2024-Summer",
+      "time": "9:20PM",
+      "status": "unplayed",
+      "date": "AUG 22",
+      "week": 1
+    },
+    {
+      "id": 5,
+      "team1": "Sosi United",
+      "team2": "Chaparral",
+      "league": "JUEVES_5v5",
+      "season": "2024-Summer",
+      "time": "7:40PM",
+      "status": "unplayed",
+      "date": "OCT 03",
+      "week": 3
+    },
+    {
+      "id": 6,
+      "team1": "Chelsea",
+      "team2": "Olympia",
+      "league": "JUEVES_5v5",
+      "season": "2024-Summer",
+      "time": "8:30PM",
+      "status": "unplayed",
+      "date": "OCT 03",
+      "week": 3
+    },
+    {
+      "id": 7,
+      "team1": "Chelsea",
+      "team2": "FC Milo",
+      "league": "JUEVES_5v5",
+      "season": "2024-Summer",
+      "time": "9:20PM",
+      "status": "unplayed",
+      "date": "OCT 03",
+      "week": 3
+    }
+  ]
+}
